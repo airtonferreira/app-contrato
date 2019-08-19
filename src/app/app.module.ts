@@ -17,13 +17,15 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import {MatSelectModule} from '@angular/material/select';
+import { ContractMonitorComponent } from './contract-monitor/contract-monitor.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    ContractMonitorComponent
   ],
   imports: [
     BrowserModule,

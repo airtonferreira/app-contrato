@@ -38,7 +38,7 @@
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="(isHandset$ | async) === false">
     <mat-nav-list>
-      <a mat-list-item href="#">Acompanhamento de Contratos</a>
+      <a mat-list-item [routerLink]="['/acompanhamento']" routerLinkActive="router-link-active" >Acompanhamento de Contratos</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

@@ -1,49 +1,62 @@
-<mat-toolbar>
-  <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
-    <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-  </button>
-  <span class="hrVertical"></span>
-  <span>TESTE FRONTEND</span>
-  <span class="spacer"></span>
-  <span class="space-items">Carregar mais itens</span>
+<section id="navbar">
+  <mat-toolbar>
+    <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
+      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+    <span class="hrVertical"></span>
 
-  <button mat-flat-button>
+    <a [routerLink]="['']" routerLinkActive="router-link-active">TESTE FRONTEND</a>
+
+    <span class="spacer"></span>
+
+
+    <button mat-flat-button>
+      <span class="space-items">Carregar mais itens</span>
+      <i class="material-icons">
+        refresh
+      </i>
+    </button>
+
+    <select class="space-items">
+      <option disabled>Selecione um Município</option>
+      <option>Guarabira</option>
+      <option>Mamanguape</option>
+      <option>Rio Tinto</option>
+    </select>
+
     <i class="material-icons">
-      refresh
+      help
     </i>
-  </button>
+    <span class="hrVertical"></span>
 
-  <select class="space-items">
-    <option disabled>Selecione um Município</option>
-    <option>Guarabira</option>
-    <option>Mamanguape</option>
-    <option>Rio Tinto</option>
-  </select>
+    <button mat-flat-button>
+      <i class="material-icons">
+        settings
+      </i>
+    </button>
 
-  <i class="material-icons">
-    help
-  </i>
-  <span class="hrVertical"></span>
+  </mat-toolbar>
+</section>
 
-  <button mat-flat-button>
-    <i class="material-icons">
-      settings
-    </i>
-  </button>
+<section id="sidebar">
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport="false"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+      <mat-nav-list>
 
-</mat-toolbar>
+        <a mat-list-item [routerLink]="['/acompanhamento']" routerLinkActive="router-link-active">
+          <i class="material-icons">
+            assignment
+          </i>
+          Acompanhamento de
+          Contratos</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="container-content">
 
-<mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport="false"
-    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'"
-    [opened]="(isHandset$ | async) === false">
-    <mat-nav-list>
-      <a mat-list-item [routerLink]="['/acompanhamento']" routerLinkActive="router-link-active" >Acompanhamento de Contratos</a>
-    </mat-nav-list>
-  </mat-sidenav>
-  <mat-sidenav-content>
-
-    <!-- Add Content Here -->
-    <app-contract-monitor></app-contract-monitor>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+      <!-- Add Content Here -->
+      <app-contract-monitor></app-contract-monitor>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</section>

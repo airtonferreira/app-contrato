@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 /* My pages components */
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ContractMonitorComponent } from './contract-monitor/contract-monitor.component';
 
 /* My Angular Material components */
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -17,7 +18,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import {MatSelectModule} from '@angular/material/select';
-import { ContractMonitorComponent } from './contract-monitor/contract-monitor.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 
 
@@ -37,7 +40,9 @@ import { ContractMonitorComponent } from './contract-monitor/contract-monitor.co
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatSelectModule
+    MatSelectModule,
+    MatGridListModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

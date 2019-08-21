@@ -1,0 +1,78 @@
+.spacement{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bloco1{
+    height: 100px;
+    background-color: rgb(242, 242, 242);
+    border: none;
+}
+
+
+.table-values{
+    background-color: rgb(242, 242, 242);
+}
+
+.card-green{
+    height: 40px;
+    background-color: rgb(99, 169, 99);
+}
+
+#cards2 .list-group{
+    font-size: 12px;
+}
+
+#cards2 .list-group span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#cards2 .card-green p{
+    font-size: 12px;
+}
+
+#cards2 .card-green span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#cards3 .card-header{
+    background-color: rgb(242, 242, 242);
+    font-size: 12px;
+}
+
+#cards3 .card-footer{
+    background-color: rgb(242, 242, 242);
+    font-size: 12px;
+}
+
+#cards3 .box-red{
+    background-color: rgb(255, 168, 168);
+    color: rgb(245, 109, 109);
+}
+
+#cards3 .box-yellow{
+    background-color: rgb(255, 241, 168);
+    color: rgb(216, 170, 71);
+}
+
+#cards3 .box-green{
+    background-color: rgb(170, 223, 123);
+    color: rgb(70, 159, 57);
+}
+
+#cards3 .head-card{
+    border-radius: 5px 5px 0px 0px;
+    height: 30px;
+    background-color: rgb(227, 227, 227);
+}
+
+#cards3 .card-body{
+    height: 163px;
+}
+
+#cards3 .card-content-red{
+    background-color: rgb(203, 109, 109);
+}

@@ -76,3 +76,13 @@
 #cards3 .card-content-red{
     background-color: rgb(203, 109, 109);
 }
+
+label{
+    margin-left: 20px;
+}
+
+/*====== Filters ======*/
+
+#filters{
+    margin-top: 20px;
+}

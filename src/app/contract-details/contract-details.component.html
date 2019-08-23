@@ -1,0 +1,62 @@
+<section id="tables">
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+            <h5>DETALHAMENTO DE CONTRATOS</h5>
+        </div>
+
+        <table mat-table [dataSource]="dataSource" matSort>
+
+            <!-- Code Column -->
+            <ng-container matColumnDef="id">
+                <th mat-header-cell *matHeaderCellDef> Código </th>
+                <td mat-cell *matCellDef="let row"> {{row.id}} </td>
+            </ng-container>
+
+            <!-- Contract Number Column -->
+            <ng-container matColumnDef="contractNumber">
+                <th mat-header-cell *matHeaderCellDef> Número contrato </th>
+                <td mat-cell *matCellDef="let row"> {{row.contractNumber}} </td>
+            </ng-container>
+
+            <!-- Bidding Number Column -->
+            <ng-container matColumnDef="biddingNumber">
+                    <th mat-header-cell *matHeaderCellDef> Número Licitação </th>
+                    <td mat-cell *matCellDef="let row"> {{row.contractNumber}} </td>
+                </ng-container>
+
+            <!-- Progress Column -->
+            <ng-container matColumnDef="progress">
+                <th mat-header-cell *matHeaderCellDef> Objeto Contratado </th>
+                <td mat-cell *matCellDef="let row"> {{row.progress}}% </td>
+            </ng-container>
+
+            <!-- Name Column -->
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef> Favorecido </th>
+                <td mat-cell *matCellDef="let row"> {{row.name}} </td>
+            </ng-container>
+
+            <!-- Color Column -->
+            <ng-container matColumnDef="contractType">
+                <th mat-header-cell *matHeaderCellDef> Tipo de Contrato </th>
+                <td mat-cell *matCellDef="let row" [style.color]="row.contractType"> {{row.contractType}} </td>
+            </ng-container>
+
+            <!-- Licitação Column -->
+            <ng-container matColumnDef="modalidade">
+                <th mat-header-cell *matHeaderCellDef> Modalidade Licitação </th>
+                <td mat-cell *matCellDef="let row" [style.color]="row.modalidade"> {{row.modalidade}} </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;">
+            </tr>
+        </table>
+
+        <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+
+    </div>
+
+</section>

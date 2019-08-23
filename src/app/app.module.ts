@@ -10,6 +10,7 @@ import { ContractMonitorComponent } from './contract-monitor/contract-monitor.co
 
 /* My Angular Material components */
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { ContractDetailsComponent } from './contract-details/contract-details.component';
 
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -20,15 +21,19 @@ import { MatListModule } from '@angular/material/list';
 import {MatSelectModule} from '@angular/material/select';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatExpansionModule} from '@angular/material/expansion';
-
-
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    ContractMonitorComponent
+    ContractMonitorComponent,
+    ContractDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +47,12 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatListModule,
     MatSelectModule,
     MatGridListModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]

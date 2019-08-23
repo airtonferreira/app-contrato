@@ -1,0 +1,24 @@
+{
+  "contrato": [
+    {
+      "id": "01",
+      "numContrato": "789",
+      "numLicitacao": "68806",
+      "modalidade": "Pregão Eletrônico",
+      "tipoContrato": "Serviço",
+      "objetoContrato": "Aluguel de Veículos",
+      "favorecido": "Airton Felix",
+      "valorContrato": "200.00",
+      "dtInicio": "01/02/2019",
+      "dtFim": "28/02/2019",
+      "quantDias": "10",
+      "status": [
+        {
+          "empenhado": "",
+          "liquidado": "",
+          "pago": ""
+        }
+      ]
+    }
+  ]
+}

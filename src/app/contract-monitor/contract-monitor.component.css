@@ -3,6 +3,10 @@
     margin-bottom: 20px;
 }
 
+.card-header{
+    background-color: white;
+}
+
 .bloco1{
     height: 100px;
     background-color: rgb(242, 242, 242);
@@ -85,4 +89,5 @@ label{
 
 #filters{
     margin-top: 20px;
+    margin-bottom: 20px;
 }

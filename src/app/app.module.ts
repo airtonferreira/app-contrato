@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 /* My pages components */
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ContractMonitorComponent } from './contract-monitor/contract-monitor.component';
@@ -26,6 +28,7 @@ import {MatNativeDateModule} from '@angular/material';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
+
 
 
 @NgModule({
@@ -52,7 +55,8 @@ import {MatSortModule} from '@angular/material/sort';
     MatNativeDateModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

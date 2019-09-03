@@ -3,6 +3,8 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
 import { ContractService } from '../contract.service';
 import { Contract, Page } from '../contract.model';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+
 
 @Component({
   selector: 'app-contract-details',
@@ -10,6 +12,11 @@ import { Contract, Page } from '../contract.model';
   styleUrls: ['./contract-details.component.css']
 })
 export class ContractDetailsComponent implements OnInit {
+
+
+  constructor(private service: ContractService) {
+    this.getAllLic();
+  }
 
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
 
@@ -19,9 +26,6 @@ export class ContractDetailsComponent implements OnInit {
 
   contracts: Contract[];
 
-  constructor(private service: ContractService) {
-    this.getAllLic();
-  }
 
   ngOnInit() {
 
@@ -33,7 +37,11 @@ export class ContractDetailsComponent implements OnInit {
       .subscribe(res => {
         this.dataSource.data = res as Contract[];
         this.dataSource.paginator = this.paginator;
+
       });
   }
+
+
+
 
 }

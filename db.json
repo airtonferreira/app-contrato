@@ -9,8 +9,8 @@
       "objetoContrato": "Aluguel de Veículos",
       "favorecido": "Airton Felix",
       "valorContrato": "200.00",
-      "dtInicio": "01/02/2019",
-      "dtFim": "28/02/2019",
+      "dtInicio": "2019-07-10",
+      "dtFim": "2019-08-10",
       "quantDias": "10",
       "status": [
         {
@@ -20,835 +20,130 @@
         }
       ]
     },
-    {
-      "id": 2,
-      "numContrato": "111",
-      "numLicitacao": "66666",
-      "modalidade": "Informatica",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Novos computadores",
-      "favorecido": "Maria Luiza",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "numContrato": "885",
-      "numLicitacao": "12345",
-      "modalidade": "Administração",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Papeis ofício",
-      "favorecido": "João Ferreira",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "numContrato": "223",
-      "numLicitacao": "63214",
-      "modalidade": "Tomada de Preços",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de veículos",
-      "favorecido": "José da Silva",
-      "valorContrato": "150.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "numContrato": "987",
-      "numLicitacao": "99999",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aquisição de materiais ",
-      "favorecido": "Maria Lúcia",
-      "valorContrato": "150.00",
-      "dtInicio": "05/10/2019",
-      "dtFim": "28/10/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "numContrato": "545",
-      "numLicitacao": "77777",
-      "modalidade": "Eletrônicos",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Tablets ",
-      "favorecido": "Luciana Costa",
-      "valorContrato": "85.00",
-      "dtInicio": "03/04/2019",
-      "dtFim": "28/04/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "numContrato": "789",
-      "numLicitacao": "68806",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de Veículos",
-      "favorecido": "Airton Felix",
-      "valorContrato": "200.00",
-      "dtInicio": "01/02/2019",
-      "dtFim": "28/02/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "",
-          "liquidado": "",
-          "pago": ""
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "numContrato": "111",
-      "numLicitacao": "66666",
-      "modalidade": "Informatica",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Novos computadores",
-      "favorecido": "Maria Luiza",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "numContrato": "885",
-      "numLicitacao": "12345",
-      "modalidade": "Administração",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Papeis ofício",
-      "favorecido": "João Ferreira",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "numContrato": "223",
-      "numLicitacao": "63214",
-      "modalidade": "Tomada de Preços",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de veículos",
-      "favorecido": "José da Silva",
-      "valorContrato": "150.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "numContrato": "987",
-      "numLicitacao": "99999",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aquisição de materiais ",
-      "favorecido": "Maria Lúcia",
-      "valorContrato": "150.00",
-      "dtInicio": "05/10/2019",
-      "dtFim": "28/10/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "numContrato": "545",
-      "numLicitacao": "77777",
-      "modalidade": "Eletrônicos",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Tablets ",
-      "favorecido": "Luciana Costa",
-      "valorContrato": "85.00",
-      "dtInicio": "03/04/2019",
-      "dtFim": "28/04/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "numContrato": "789",
-      "numLicitacao": "68806",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de Veículos",
-      "favorecido": "Airton Felix",
-      "valorContrato": "200.00",
-      "dtInicio": "01/02/2019",
-      "dtFim": "28/02/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "",
-          "liquidado": "",
-          "pago": ""
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "numContrato": "111",
-      "numLicitacao": "66666",
-      "modalidade": "Informatica",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Novos computadores",
-      "favorecido": "Maria Luiza",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "numContrato": "885",
-      "numLicitacao": "12345",
-      "modalidade": "Administração",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Papeis ofício",
-      "favorecido": "João Ferreira",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "numContrato": "223",
-      "numLicitacao": "63214",
-      "modalidade": "Tomada de Preços",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de veículos",
-      "favorecido": "José da Silva",
-      "valorContrato": "150.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "numContrato": "987",
-      "numLicitacao": "99999",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aquisição de materiais ",
-      "favorecido": "Maria Lúcia",
-      "valorContrato": "150.00",
-      "dtInicio": "05/10/2019",
-      "dtFim": "28/10/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "numContrato": "545",
-      "numLicitacao": "77777",
-      "modalidade": "Eletrônicos",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Tablets ",
-      "favorecido": "Luciana Costa",
-      "valorContrato": "85.00",
-      "dtInicio": "03/04/2019",
-      "dtFim": "28/04/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "numContrato": "789",
-      "numLicitacao": "68806",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de Veículos",
-      "favorecido": "Airton Felix",
-      "valorContrato": "200.00",
-      "dtInicio": "01/02/2019",
-      "dtFim": "28/02/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "",
-          "liquidado": "",
-          "pago": ""
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "numContrato": "111",
-      "numLicitacao": "66666",
-      "modalidade": "Informatica",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Novos computadores",
-      "favorecido": "Maria Luiza",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "numContrato": "885",
-      "numLicitacao": "12345",
-      "modalidade": "Administração",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Papeis ofício",
-      "favorecido": "João Ferreira",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "numContrato": "223",
-      "numLicitacao": "63214",
-      "modalidade": "Tomada de Preços",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de veículos",
-      "favorecido": "José da Silva",
-      "valorContrato": "150.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "numContrato": "987",
-      "numLicitacao": "99999",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aquisição de materiais ",
-      "favorecido": "Maria Lúcia",
-      "valorContrato": "150.00",
-      "dtInicio": "05/10/2019",
-      "dtFim": "28/10/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "numContrato": "545",
-      "numLicitacao": "77777",
-      "modalidade": "Eletrônicos",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Tablets ",
-      "favorecido": "Luciana Costa",
-      "valorContrato": "85.00",
-      "dtInicio": "03/04/2019",
-      "dtFim": "28/04/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "numContrato": "789",
-      "numLicitacao": "68806",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de Veículos",
-      "favorecido": "Airton Felix",
-      "valorContrato": "200.00",
-      "dtInicio": "01/02/2019",
-      "dtFim": "28/02/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "",
-          "liquidado": "",
-          "pago": ""
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "numContrato": "111",
-      "numLicitacao": "66666",
-      "modalidade": "Informatica",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Novos computadores",
-      "favorecido": "Maria Luiza",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 27,
-      "numContrato": "885",
-      "numLicitacao": "12345",
-      "modalidade": "Administração",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Papeis ofício",
-      "favorecido": "João Ferreira",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "numContrato": "223",
-      "numLicitacao": "63214",
-      "modalidade": "Tomada de Preços",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de veículos",
-      "favorecido": "José da Silva",
-      "valorContrato": "150.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 29,
-      "numContrato": "987",
-      "numLicitacao": "99999",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aquisição de materiais ",
-      "favorecido": "Maria Lúcia",
-      "valorContrato": "150.00",
-      "dtInicio": "05/10/2019",
-      "dtFim": "28/10/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 30,
-      "numContrato": "545",
-      "numLicitacao": "77777",
-      "modalidade": "Eletrônicos",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Tablets ",
-      "favorecido": "Luciana Costa",
-      "valorContrato": "85.00",
-      "dtInicio": "03/04/2019",
-      "dtFim": "28/04/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 31,
-      "numContrato": "789",
-      "numLicitacao": "68806",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de Veículos",
-      "favorecido": "Airton Felix",
-      "valorContrato": "200.00",
-      "dtInicio": "01/02/2019",
-      "dtFim": "28/02/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "",
-          "liquidado": "",
-          "pago": ""
-        }
-      ]
-    },
-    {
-      "id": 32,
-      "numContrato": "111",
-      "numLicitacao": "66666",
-      "modalidade": "Informatica",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Novos computadores",
-      "favorecido": "Maria Luiza",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 33,
-      "numContrato": "885",
-      "numLicitacao": "12345",
-      "modalidade": "Administração",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Papeis ofício",
-      "favorecido": "João Ferreira",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 34,
-      "numContrato": "223",
-      "numLicitacao": "63214",
-      "modalidade": "Tomada de Preços",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de veículos",
-      "favorecido": "José da Silva",
-      "valorContrato": "150.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 35,
-      "numContrato": "987",
-      "numLicitacao": "99999",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aquisição de materiais ",
-      "favorecido": "Maria Lúcia",
-      "valorContrato": "150.00",
-      "dtInicio": "05/10/2019",
-      "dtFim": "28/10/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 36,
-      "numContrato": "545",
-      "numLicitacao": "77777",
-      "modalidade": "Eletrônicos",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Tablets ",
-      "favorecido": "Luciana Costa",
-      "valorContrato": "85.00",
-      "dtInicio": "03/04/2019",
-      "dtFim": "28/04/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 37,
-      "numContrato": "789",
-      "numLicitacao": "68806",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de Veículos",
-      "favorecido": "Airton Felix",
-      "valorContrato": "200.00",
-      "dtInicio": "01/02/2019",
-      "dtFim": "28/02/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "",
-          "liquidado": "",
-          "pago": ""
-        }
-      ]
-    },
-    {
-      "id": 38,
-      "numContrato": "111",
-      "numLicitacao": "66666",
-      "modalidade": "Informatica",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Novos computadores",
-      "favorecido": "Maria Luiza",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 39,
-      "numContrato": "885",
-      "numLicitacao": "12345",
-      "modalidade": "Administração",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Papeis ofício",
-      "favorecido": "João Ferreira",
-      "valorContrato": "200.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 40,
-      "numContrato": "223",
-      "numLicitacao": "63214",
-      "modalidade": "Tomada de Preços",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aluguel de veículos",
-      "favorecido": "José da Silva",
-      "valorContrato": "150.00",
-      "dtInicio": "25/05/2019",
-      "dtFim": "28/05/2019",
-      "quantDias": "10",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 41,
-      "numContrato": "987",
-      "numLicitacao": "99999",
-      "modalidade": "Pregão Eletrônico",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Aquisição de materiais ",
-      "favorecido": "Maria Lúcia",
-      "valorContrato": "150.00",
-      "dtInicio": "05/10/2019",
-      "dtFim": "28/10/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    },
-    {
-      "id": 42,
-      "numContrato": "545",
-      "numLicitacao": "77777",
-      "modalidade": "Eletrônicos",
-      "tipoContrato": "Serviço",
-      "objetoContrato": "Tablets ",
-      "favorecido": "Luciana Costa",
-      "valorContrato": "85.00",
-      "dtInicio": "03/04/2019",
-      "dtFim": "28/04/2019",
-      "quantDias": "15",
-      "status": [
-        {
-          "empenhado": "sim",
-          "liquidado": "sim",
-          "pago": "sim"
-        }
-      ]
-    }
-  ],
-  "page": {
-    "totalPages": 3,
-    "totalElements": 21,
-    "last": false,
-    "pageSize": 2,
-    "number": 0,
-    "sort": null,
-    "numberOfElements": 5,
-    "first": true
-  }
+      {
+        "id": 2,
+        "numContrato": "223",
+        "numLicitacao": "63214",
+        "modalidade": "Tomada de Preços",
+        "tipoContrato": "Serviço",
+        "objetoContrato": "Aluguel de veículos",
+        "favorecido": "José da Silva",
+        "valorContrato": "200.00",
+        "dtInicio": "2019-09-05",
+        "dtFim": "2019-10-05",
+        "quantDias": "10",
+        "status": [
+          {
+            "empenhado": "sim",
+            "liquidado": "sim",
+            "pago": "sim"
+          }
+        ]
+      },
+
+      {
+        "id": 3,
+        "numContrato": "223",
+        "numLicitacao": "63214",
+        "modalidade": "Tomada de Preços",
+        "tipoContrato": "Serviço",
+        "objetoContrato": "Aluguel de veículos",
+        "favorecido": "José da Silva",
+        "valorContrato": "200.00",
+        "dtInicio": "2019-09-05",
+        "dtFim": "2019-10-05",
+        "quantDias": "10",
+        "status": [
+          {
+            "empenhado": "sim",
+            "liquidado": "sim",
+            "pago": "sim"
+          }
+        ]
+      },
+
+      {
+        "id": 4,
+        "numContrato": "223",
+        "numLicitacao": "63214",
+        "modalidade": "Tomada de Preços",
+        "tipoContrato": "Serviço",
+        "objetoContrato": "Aluguel de veículos",
+        "favorecido": "José da Silva",
+        "valorContrato": "200.00",
+        "dtInicio": "2019-09-05",
+        "dtFim": "2019-10-05",
+        "quantDias": "10",
+        "status": [
+          {
+            "empenhado": "sim",
+            "liquidado": "sim",
+            "pago": "sim"
+          }
+        ]
+      },
+
+      {
+        "id": 5,
+        "numContrato": "223",
+        "numLicitacao": "63214",
+        "modalidade": "Tomada de Preços",
+        "tipoContrato": "Serviço",
+        "objetoContrato": "Aluguel de veículos",
+        "favorecido": "José da Silva",
+        "valorContrato": "200.00",
+        "dtInicio": "2019-09-05",
+        "dtFim": "2019-10-05",
+        "quantDias": "10",
+        "status": [
+          {
+            "empenhado": "sim",
+            "liquidado": "sim",
+            "pago": "sim"
+          }
+        ]
+      },
+
+      {
+        "id": 6,
+        "numContrato": "223",
+        "numLicitacao": "63214",
+        "modalidade": "Tomada de Preços",
+        "tipoContrato": "Serviço",
+        "objetoContrato": "Aluguel de veículos",
+        "favorecido": "José da Silva",
+        "valorContrato": "200.00",
+        "dtInicio": "2019-09-05",
+        "dtFim": "2019-10-05",
+        "quantDias": "10",
+        "status": [
+          {
+            "empenhado": "sim",
+            "liquidado": "sim",
+            "pago": "sim"
+          }
+        ]
+      },
+
+      {
+        "id": 7,
+        "numContrato": "223",
+        "numLicitacao": "63214",
+        "modalidade": "Tomada de Preços",
+        "tipoContrato": "Serviço",
+        "objetoContrato": "Aluguel de veículos",
+        "favorecido": "José da Silva",
+        "valorContrato": "200.00",
+        "dtInicio": "2019-09-05",
+        "dtFim": "2019-10-05",
+        "quantDias": "10",
+        "status": [
+          {
+            "empenhado": "sim",
+            "liquidado": "sim",
+            "pago": "sim"
+          }
+        ]
+      }
+  ]
 }

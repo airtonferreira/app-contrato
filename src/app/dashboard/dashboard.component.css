@@ -30,6 +30,10 @@
   flex: 1 1 auto;
 }
 
+#navbar .carga {
+  font-size: 12px;
+}
+
 button{
   outline: 0;
 }

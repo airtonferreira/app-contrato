@@ -10,3 +10,13 @@ table {
 .card-header{
     background-color: white;
 }
+
+th{
+    color: black;
+    font-weight: bold;
+
+}
+
+mat-paginator{
+    outline: 0;
+}

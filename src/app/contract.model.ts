@@ -8,8 +8,8 @@ export class Contract {
         public objetoContrato: string,
         public favorecido: string,
         public valorContrato: string,
-        public dtInicio: string,
-        public dtFim: string,
+        public dtInicio: Date,
+        public dtFim: Date,
         public quantDias: string,
         public status: string
     ) { }

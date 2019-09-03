@@ -17,4 +17,5 @@ export class ContractService {
       tap(console.log)
     );
   }
+
 }

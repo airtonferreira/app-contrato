@@ -115,26 +115,38 @@
 
                     <form>
                         <div class="form-row">
-                            <div class="form-group col-6">
-                                <label for="inputEmail2">Filtro</label>
-                                <input type="email" class="form-control" id="inputEmail2" placeholder="Email">
+                            <div class="form-group col-md-6">
+                                <label for="type-filter">Tipo Filtro:</label>
+                                <select name="type-filter" id="type-filter" class="form-control">
+                                    <option selected="selected">Selecione</option>
+                                    <option value="number-code">Código</option>
+                                    <option value="number-contract">Número Contrato</option>
+                                </select>
                             </div>
-                            <div class="form-group col-6">
-                                <label for="valor">Valor Filtro</label>
+                            <div class="form-group col-md-6">
+                                <label for="valor">Valor Filtro:</label>
                                 <input type="text" class="form-control" id="valor" placeholder="">
                             </div>
                         </div>
 
                         <div class="form-row">
-                            <div class="input-group col-6">
+                            <div class="form-group col-md-5">
                                 <label for="dataInicio">Datas entre: </label>
-                                <input required [matDatepicker]="dataInicio" class="form-control" type="text">
+                                <div class="input-group">
 
-                                <mat-datepicker-toggle matSuffix [for]="dataInicio"></mat-datepicker-toggle>
+                                    <input id="dataInicio" required [matDatepicker]="dataInicio" class="form-control"
+                                        type="text">
 
-                                <mat-datepicker #dataInicio></mat-datepicker>
+                                    <mat-datepicker-toggle matSuffix [for]="dataInicio"></mat-datepicker-toggle>
+
+                                    <mat-datepicker #dataInicio></mat-datepicker>
+                                </div>
+
                             </div>
-                            <div class="input-group col-6">
+                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                e
+                            </div>
+                            <div class="form-group input-group col-md-5 d-flex align-items-end">
                                 <input required [matDatepicker]="dataFim" class="form-control" type="text">
 
                                 <mat-datepicker-toggle matSuffix [for]="dataFim"></mat-datepicker-toggle>
@@ -151,35 +163,62 @@
 
                     <form>
                         <div class="form-row">
-                            <div class="form-group col-6">
-                                <label for="inputValor">Valor (R$) entre</label>
+                            <div class="form-group col-md-5">
+                                <label for="inputValor">Valor (R$) entre:</label>
                                 <input type="text" class="form-control" id="inputValor">
                             </div>
-                            <div class="form-group col-6">
+
+                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                e
+                            </div>
+
+                            <div class="form-group col-md-5">
                                 <label for="inputValor2"></label><br>
                                 <input type="text" class="form-control" id="inputValor2">
                             </div>
                         </div>
 
                         <div class="form-row">
-                            <div class="form-group col-6">
-                                <label for="sit-select">Situação do Contrato: </label>
-                                <select class="custom-select" id="sit-select">
-                                    <option disabled>Selecione</option>
-                                    <option (click)="inputdataAte = true">Vigente até</option>
-                                    <option>A vencer nos próximos</option>
-                                </select>
+                            <div class="input-group col-md-6">
+
+                                <mat-form-field>
+                                    <label>Situação do Contrato:</label>
+                                    <mat-select [(value)]="selectedValue">
+                                        <mat-option disable>Selecione</mat-option>
+                                        <mat-option value="1">Vigente até</mat-option>
+                                        <mat-option value="2">A vencer nos próximos</mat-option>
+                                    </mat-select>
+
+                                </mat-form-field>
+
+
                             </div>
 
-                            <div *ngIf="value" class="input-group col-6">
-                                <input required [matDatepicker]="dataAte" class="form-control" type="text">
+                            <div *ngIf="selectedValue == 1" class="form-group col-md-6">
+                                <label for="data">Data: </label>
+                                <div class="input-group">
 
-                                <mat-datepicker-toggle matSuffix [for]="dataAte"></mat-datepicker-toggle>
+                                    <input id="data" required [matDatepicker]="data" class="form-control" type="text">
 
-                                <mat-datepicker #dataFim></mat-datepicker>
+                                    <mat-datepicker-toggle matSuffix [for]="data"></mat-datepicker-toggle>
+
+                                    <mat-datepicker #data></mat-datepicker>
+                                </div>
                             </div>
 
-                            <div>
+                            <div *ngIf="selectedValue == 2" class="form-group col-md-6">
+                                
+                                <div class="form-group">
+                                    <label for="quantDias">Quantidade de dias: </label>
+                                    <input type="text" class="form-control" id="quantDias">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 d-flex justify-content-end align-items-center">
+                                <button type="button" class="btn bg-light text-center">
+                                    LIMPAR
+                                </button>
+
                                 <button type="button" class="btn bg-success text-center text-white">
                                     APLICAR
                                 </button>

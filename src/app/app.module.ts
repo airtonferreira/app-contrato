@@ -29,6 +29,7 @@ import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
 
+
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
 
